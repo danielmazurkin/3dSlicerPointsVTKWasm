@@ -1,3 +1,5 @@
+Это песочница, в которой содержится исходный код сборки под инструмент Точка из 3D Slicer
+
 ## Run building 3D Slicer code for web-assembly
 
 This is repository about research building 3D Slicer for web-assembly
