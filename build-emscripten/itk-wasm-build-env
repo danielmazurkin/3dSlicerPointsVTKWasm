@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DEFAULT_DOCKCROSS_IMAGE=kitware/vtk-wasm:v9.2.6-3600-geaa169b1eb-20230526
+DEFAULT_DOCKCROSS_IMAGE=kitware/vtk-wasm:v9.2.6-3824-g2dee903171-20230616
 
 #------------------------------------------------------------------------------
 # Helpers
@@ -268,10 +268,10 @@ exit $run_exit_code
 # This image is not intended to be run manually.
 #
 # To create a dockcross helper script for the
-# kitware/vtk-wasm:v9.2.6-3600-geaa169b1eb-20230526 image, run:
+# kitware/vtk-wasm:v9.2.6-3824-g2dee903171-20230616 image, run:
 #
-# docker run --rm kitware/vtk-wasm:v9.2.6-3600-geaa169b1eb-20230526 > kitware-vtk-wasm-v9.2.6-3600-geaa169b1eb-20230526
-# chmod +x kitware-vtk-wasm-v9.2.6-3600-geaa169b1eb-20230526
+# docker run --rm kitware/vtk-wasm:v9.2.6-3824-g2dee903171-20230616 > kitware-vtk-wasm-v9.2.6-3824-g2dee903171-20230616
+# chmod +x kitware-vtk-wasm-v9.2.6-3824-g2dee903171-20230616
 #
 # You may then wish to move the dockcross script to your PATH.
 #

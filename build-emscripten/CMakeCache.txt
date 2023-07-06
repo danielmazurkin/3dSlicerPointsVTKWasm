@@ -174,7 +174,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/emsdk/upstream/bin/llvm-strip
 
-//The CMake toolchain file
+//No help, variable specified on the command line.
 CMAKE_TOOLCHAIN_FILE:FILEPATH=/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
 
 //If this value is on, makefiles will be generated without the
@@ -191,6 +191,9 @@ Cone_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Cone_SOURCE_DIR:STATIC=/work
+
+//Type of debug info
+DEBUGINFO:STRING=PROFILE
 
 //If true, we are targeting Emscripten output.
 EMSCRIPTEN:BOOL=1
@@ -244,7 +247,10 @@ OPENGL_opengl_LIBRARY:FILEPATH=OPENGL_opengl_LIBRARY-NOTFOUND
 //Path to a file.
 OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 
-//The directory containing a CMake configuration file for SDL2.
+//Emscripten optimization
+OPTIMIZE:STRING=SMALLEST_WITH_CLOSURE
+
+//Third-party helper setting from VTK
 SDL2_DIR:PATH=/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/SDL2
 
 //No help, variable specified on the command line.
@@ -378,6 +384,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//STRINGS property for variable: DEBUGINFO
+DEBUGINFO-STRINGS:INTERNAL=NONE;READABLE_JS;PROFILE;DEBUG_NATIVE
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libGL.a][/emsdk/upstream/emscripten/cache/sysroot/include][cfound components: GLES3 ][v()]
 //Details about finding Threads
@@ -404,6 +412,8 @@ OPENGL_glx_LIBRARY-ADVANCED:INTERNAL=1
 OPENGL_opengl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_xmesa_INCLUDE_DIR
 OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//STRINGS property for variable: OPTIMIZE
+OPTIMIZE-STRINGS:INTERNAL=NO_OPTIMIZATION;LITTLE;MORE;BEST;SMALL;SMALLEST;SMALLEST_WITH_CLOSURE
 //Number of processors available to run parallel tests.
 VTK_MPI_NUMPROCS:INTERNAL=2
 

@@ -1,0 +1,6 @@
+#ifndef vtkOrderIndependentTranslucentPassFinalFS_h
+#define vtkOrderIndependentTranslucentPassFinalFS_h
+
+extern const char *vtkOrderIndependentTranslucentPassFinalFS;
+
+#endif

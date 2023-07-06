@@ -1,0 +1,3 @@
+/home/danil/Cone/Cone/build/CMakeFiles/rebuild_cache.dir
+/home/danil/Cone/Cone/build/CMakeFiles/edit_cache.dir
+/home/danil/Cone/Cone/build/CMakeFiles/Cone.dir

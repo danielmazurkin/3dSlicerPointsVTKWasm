@@ -1,0 +1,1647 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test vtk_have_compiler_flag_Weverything succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1ada4 && [1/2] Building C object CMakeFiles/cmTC_1ada4.dir/src.c.o
+[2/2] Linking C executable cmTC_1ada4.js
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+Source file was:
+int main(void) { return 0; }
+Checking whether wstring is available compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e08fe && [1/2] Building CXX object CMakeFiles/cmTC_e08fe.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_e08fe.js
+
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a1d5f && [1/2] Building C object CMakeFiles/cmTC_a1d5f.dir/kwsysPlatformTestsC.c.o
+[2/2] Linking C executable cmTC_a1d5f.js
+
+
+
+Checking whether C compiler has ssize_t in unistd.h compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_784da && [1/2] Building C object CMakeFiles/cmTC_784da.dir/kwsysPlatformTestsC.c.o
+[2/2] Linking C executable cmTC_784da.js
+
+
+
+Checking whether C compiler has clock_gettime compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8fd38 && [1/2] Building C object CMakeFiles/cmTC_8fd38.dir/kwsysPlatformTestsC.c.o
+[2/2] Linking C executable cmTC_8fd38.js
+
+
+
+Checking whether CXX compiler has setenv compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_eb285 && [1/2] Building CXX object CMakeFiles/cmTC_eb285.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_eb285.js
+
+
+
+Checking whether CXX compiler has unsetenv compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1ad25 && [1/2] Building CXX object CMakeFiles/cmTC_1ad25.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_1ad25.js
+
+
+
+Checking whether CXX compiler has utimes compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7a0d3 && [1/2] Building CXX object CMakeFiles/cmTC_7a0d3.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_7a0d3.js
+
+
+
+Checking whether CXX compiler has utimensat compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_972e5 && [1/2] Building CXX object CMakeFiles/cmTC_972e5.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_972e5.js
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5a6f8 && [1/2] Building CXX object CMakeFiles/cmTC_5a6f8.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_5a6f8.js
+
+
+
+Determining if files sys/types.h;ifaddrs.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e564a && [1/2] Building C object CMakeFiles/cmTC_e564a.dir/KWSYS_SYS_HAS_IFADDRS_H.c.o
+[2/2] Linking C executable cmTC_e564a.js
+
+
+
+Checking whether CXX compiler has rlimit64 compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d1458 && [1/2] Building CXX object CMakeFiles/cmTC_d1458.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_d1458.js
+
+
+
+Checking whether CXX compiler has getloadavg compiled with the following output:
+Change Dir: /work/build-vtk-wasm/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6e95e && [1/2] Building CXX object CMakeFiles/cmTC_6e95e.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_6e95e.js
+
+
+
+Determining if the C++ compiler supports __atomic_add_fetch builtin completed with the following output:
+Change Dir: /work/build-vtk-wasm/Common/Core/CMakeTmp/Sync/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_33421 && [1/2] Building CXX object CMakeFiles/cmTC_33421.dir/vtkTestSyncBuiltins.cxx.o
+[2/2] Linking CXX executable cmTC_33421.js
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9ebbf && [1/2] Building C object CMakeFiles/cmTC_9ebbf.dir/src.c.o
+[2/2] Linking C executable cmTC_9ebbf.js
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test VTK_HAS_STD_ISNAN succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f62c9 && [1/2] Building CXX object CMakeFiles/cmTC_f62c9.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f62c9.js
+
+
+Source file was:
+/* CHECK_CXX_EXPRESSION_COMPILES */
+#include <cmath>
+
+int main()
+{
+  static_cast<void>(std::isnan(0.0));
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test VTK_HAS_STD_ISINF succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_84759 && [1/2] Building CXX object CMakeFiles/cmTC_84759.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_84759.js
+
+
+Source file was:
+/* CHECK_CXX_EXPRESSION_COMPILES */
+#include <cmath>
+
+int main()
+{
+  static_cast<void>(std::isinf(0.0));
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test VTK_HAS_STD_ISFINITE succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bc079 && [1/2] Building CXX object CMakeFiles/cmTC_bc079.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bc079.js
+
+
+Source file was:
+/* CHECK_CXX_EXPRESSION_COMPILES */
+#include <cmath>
+
+int main()
+{
+  static_cast<void>(std::isfinite(0.0));
+
+  return 0;
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f598f && [1/2] Building C object CMakeFiles/cmTC_f598f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f598f.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_eeeb9 && [1/2] Building C object CMakeFiles/cmTC_eeeb9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_eeeb9.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isfinite exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_60ed4 && [1/2] Building C object CMakeFiles/cmTC_60ed4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_60ed4.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isfinite
+  return ((int*)(&isfinite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the finite exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_be2b0 && [1/2] Building C object CMakeFiles/cmTC_be2b0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_be2b0.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d1c2f && [1/2] Building C object CMakeFiles/cmTC_d1c2f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d1c2f.js
+
+
+
+Determining if the include file cxxabi.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5bffa && [1/2] Building CXX object CMakeFiles/cmTC_5bffa.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_5bffa.js
+
+
+
+Determining if the abi::__cxa_demangle exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e6deb && [1/2] Building CXX object CMakeFiles/cmTC_e6deb.dir/CheckSymbolExists.cxx.o
+[2/2] Linking CXX executable cmTC_e6deb.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cxxabi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+  return ((int*)(&abi::__cxa_demangle))[argc];
+}
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1df6e && [1/2] Building CXX object CMakeFiles/cmTC_1df6e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_1df6e.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_48bb5 && [1/2] Building CXX object CMakeFiles/cmTC_48bb5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_48bb5.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e460c && [1/2] Building CXX object CMakeFiles/cmTC_e460c.dir/src.cxx.o
+/work/build-vtk-wasm/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    int main() { return somefunc();}
+                        ^
+/work/build-vtk-wasm/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+               ^
+1 warning generated.
+[2/2] Linking CXX executable cmTC_e460c.js
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Performing C++ SOURCE FILE Test has_std_11_flag succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_29e01 && [1/2] Building CXX object CMakeFiles/cmTC_29e01.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_29e01.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_0x_flag succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9e039 && [1/2] Building CXX object CMakeFiles/cmTC_9e039.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_9e039.js
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b8761 && [1/2] Building C object CMakeFiles/cmTC_b8761.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b8761.js
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_da283 && [1/2] Building C object CMakeFiles/cmTC_da283.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_da283.js
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5eb53 && [1/2] Building C object CMakeFiles/cmTC_5eb53.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5eb53.js
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e27d6 && [1/2] Building C object CMakeFiles/cmTC_e27d6.dir/OFF64_T.c.o
+[2/2] Linking C executable cmTC_e27d6.js
+cache:INFO: generating system asset: symbol_lists/2b65893cf989d4c4027fb8b38ed2bccf7a368e84.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/2b65893cf989d4c4027fb8b38ed2bccf7a368e84.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_12d30 && [1/2] Building C object CMakeFiles/cmTC_12d30.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_12d30.js
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3c053 && [1/2] Building C object CMakeFiles/cmTC_3c053.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3c053.js
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c66a5 && [1/2] Building C object CMakeFiles/cmTC_c66a5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c66a5.js
+
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_10567 && [1/2] Building C object CMakeFiles/cmTC_10567.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_10567.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_89e33 && [1/2] Building C object CMakeFiles/cmTC_89e33.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_89e33.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a8b9b && [1/2] Building C object CMakeFiles/cmTC_a8b9b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a8b9b.js
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ce644 && [1/2] Building C object CMakeFiles/cmTC_ce644.dir/SIZE_T.c.o
+[2/2] Linking C executable cmTC_ce644.js
+
+
+
+Performing C SOURCE FILE Test C_FLAG_Wall succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5d888 && [1/2] Building C object CMakeFiles/cmTC_5d888.dir/src.c.o
+[2/2] Linking C executable cmTC_5d888.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Winline succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ce221 && [1/2] Building C object CMakeFiles/cmTC_ce221.dir/src.c.o
+[2/2] Linking C executable cmTC_ce221.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wformat_security succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b8977 && [1/2] Building C object CMakeFiles/cmTC_b8977.dir/src.c.o
+[2/2] Linking C executable cmTC_b8977.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wpointer_arith succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6117f && [1/2] Building C object CMakeFiles/cmTC_6117f.dir/src.c.o
+[2/2] Linking C executable cmTC_6117f.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wdisabled_optimization succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_23344 && [1/2] Building C object CMakeFiles/cmTC_23344.dir/src.c.o
+[2/2] Linking C executable cmTC_23344.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wno_unknown_pragmas succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d066c && [1/2] Building C object CMakeFiles/cmTC_d066c.dir/src.c.o
+[2/2] Linking C executable cmTC_d066c.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_fstrict_aliasing succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_37540 && [1/2] Building C object CMakeFiles/cmTC_37540.dir/src.c.o
+[2/2] Linking C executable cmTC_37540.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a44bd && [1/2] Building C object CMakeFiles/cmTC_a44bd.dir/src.c.o
+emcc: warning: argument unused during compilation: '--version-script=/work/build-vtk-wasm/ThirdParty/tiff/vtktiff/conftest.map' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_a44bd.js
+emcc: warning: ignoring unsupported linker flag: `--version-script=/work/build-vtk-wasm/ThirdParty/tiff/vtktiff/conftest.map` [-Wlinkflags]
+
+
+Source file was:
+int main(void){return 0;}
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0e99f && [1/2] Building C object CMakeFiles/cmTC_0e99f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0e99f.js
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_96c1a && [1/2] Building C object CMakeFiles/cmTC_96c1a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_96c1a.js
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_97f6e && [1/2] Building C object CMakeFiles/cmTC_97f6e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_97f6e.js
+
+
+
+Determining if the getopt exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a7f8 && [1/2] Building C object CMakeFiles/cmTC_6a7f8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a7f8.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getopt
+  return ((int*)(&getopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the optarg exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ad3f5 && [1/2] Building C object CMakeFiles/cmTC_ad3f5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ad3f5.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <getopt.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef optarg
+  return ((int*)(&optarg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mmap exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_80ea9 && [1/2] Building C object CMakeFiles/cmTC_80ea9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_80ea9.js
+cache:INFO: generating system asset: symbol_lists/9b2516f99de8fbda65a6b46778bed8ccbde7a844.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/9b2516f99de8fbda65a6b46778bed8ccbde7a844.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of size_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8bb8f && [1/2] Building C object CMakeFiles/cmTC_8bb8f.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_8bb8f.js
+
+
+
+Determining if the pow exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_56e49 && [1/2] Building C object CMakeFiles/cmTC_56e49.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_56e49.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_22f03 && [1/2] Building CXX object CMakeFiles/cmTC_22f03.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_22f03.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fe35b && [1/2] Building CXX object CMakeFiles/cmTC_fe35b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fe35b.js
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d8889 && [1/2] Building CXX object CMakeFiles/cmTC_d8889.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d8889.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_47812 && [1/2] Building CXX object CMakeFiles/cmTC_47812.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_47812.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dfc41 && [1/2] Building CXX object CMakeFiles/cmTC_dfc41.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dfc41.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d4be5 && [1/2] Building CXX object CMakeFiles/cmTC_d4be5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d4be5.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a7e5d && [1/2] Building CXX object CMakeFiles/cmTC_a7e5d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a7e5d.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_39e34 && [1/2] Building CXX object CMakeFiles/cmTC_39e34.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_39e34.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_10f63 && [1/2] Building CXX object CMakeFiles/cmTC_10f63.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_10f63.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_df89c && [1/2] Building CXX object CMakeFiles/cmTC_df89c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_df89c.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c4ec1 && [1/2] Building CXX object CMakeFiles/cmTC_c4ec1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c4ec1.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_cb7de && [1/2] Building CXX object CMakeFiles/cmTC_cb7de.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_cb7de.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7581a && [1/2] Building CXX object CMakeFiles/cmTC_7581a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7581a.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_313b1 && [1/2] Building CXX object CMakeFiles/cmTC_313b1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_313b1.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_04235 && [1/2] Building CXX object CMakeFiles/cmTC_04235.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_04235.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5add6 && [1/2] Building CXX object CMakeFiles/cmTC_5add6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5add6.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_02a9b && [1/2] Building CXX object CMakeFiles/cmTC_02a9b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_02a9b.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3ac09 && [1/2] Building CXX object CMakeFiles/cmTC_3ac09.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3ac09.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_89bac && [1/2] Building CXX object CMakeFiles/cmTC_89bac.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_89bac.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f42db && [1/2] Building CXX object CMakeFiles/cmTC_f42db.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f42db.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_67d0b && [1/2] Building CXX object CMakeFiles/cmTC_67d0b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_67d0b.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_aa6c8 && [1/2] Building CXX object CMakeFiles/cmTC_aa6c8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_aa6c8.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_44541 && [1/2] Building CXX object CMakeFiles/cmTC_44541.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_44541.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f1e41 && [1/2] Building CXX object CMakeFiles/cmTC_f1e41.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f1e41.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bd128 && [1/2] Building CXX object CMakeFiles/cmTC_bd128.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bd128.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9520d && [1/2] Building CXX object CMakeFiles/cmTC_9520d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_9520d.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bcfc2 && [1/2] Building CXX object CMakeFiles/cmTC_bcfc2.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bcfc2.js
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3098b && [1/2] Building CXX object CMakeFiles/cmTC_3098b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3098b.js
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e01f6 && [1/2] Building C object CMakeFiles/cmTC_e01f6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e01f6.js
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_847fa && [1/2] Building C object CMakeFiles/cmTC_847fa.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_847fa.js
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_cea41 && [1/2] Building C object CMakeFiles/cmTC_cea41.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_cea41.js
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0db06 && [1/2] Building C object CMakeFiles/cmTC_0db06.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0db06.js
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e7001 && [1/2] Building C object CMakeFiles/cmTC_e7001.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e7001.js
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_440b5 && [1/2] Building C object CMakeFiles/cmTC_440b5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_440b5.js
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a6dd && [1/2] Building C object CMakeFiles/cmTC_6a6dd.dir/INT16_T.c.o
+[2/2] Linking C executable cmTC_6a6dd.js
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_203da && [1/2] Building C object CMakeFiles/cmTC_203da.dir/INT32_T.c.o
+[2/2] Linking C executable cmTC_203da.js
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6419a && [1/2] Building C object CMakeFiles/cmTC_6419a.dir/INT64_T.c.o
+[2/2] Linking C executable cmTC_6419a.js
+
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f5b01 && [1/2] Building C object CMakeFiles/cmTC_f5b01.dir/INTMAX_T.c.o
+[2/2] Linking C executable cmTC_f5b01.js
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_06840 && [1/2] Building C object CMakeFiles/cmTC_06840.dir/UINT8_T.c.o
+[2/2] Linking C executable cmTC_06840.js
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bd8e7 && [1/2] Building C object CMakeFiles/cmTC_bd8e7.dir/UINT16_T.c.o
+[2/2] Linking C executable cmTC_bd8e7.js
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_cd20e && [1/2] Building C object CMakeFiles/cmTC_cd20e.dir/UINT32_T.c.o
+[2/2] Linking C executable cmTC_cd20e.js
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6275a && [1/2] Building C object CMakeFiles/cmTC_6275a.dir/UINT64_T.c.o
+[2/2] Linking C executable cmTC_6275a.js
+
+
+
+Determining size of uintmax_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f61d1 && [1/2] Building C object CMakeFiles/cmTC_f61d1.dir/UINTMAX_T.c.o
+[2/2] Linking C executable cmTC_f61d1.js
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1b325 && [1/2] Building C object CMakeFiles/cmTC_1b325.dir/SIZE_OF_SHORT.c.o
+[2/2] Linking C executable cmTC_1b325.js
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0654c && [1/2] Building C object CMakeFiles/cmTC_0654c.dir/SIZE_OF_INT.c.o
+[2/2] Linking C executable cmTC_0654c.js
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c25c3 && [1/2] Building C object CMakeFiles/cmTC_c25c3.dir/SIZE_OF_LONG.c.o
+[2/2] Linking C executable cmTC_c25c3.js
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ef18d && [1/2] Building C object CMakeFiles/cmTC_ef18d.dir/SIZE_OF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_ef18d.js
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ae0ed && [1/2] Building C object CMakeFiles/cmTC_ae0ed.dir/SIZE_OF_UNSIGNED_SHORT.c.o
+[2/2] Linking C executable cmTC_ae0ed.js
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e05a9 && [1/2] Building C object CMakeFiles/cmTC_e05a9.dir/SIZE_OF_UNSIGNED.c.o
+[2/2] Linking C executable cmTC_e05a9.js
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bd73f && [1/2] Building C object CMakeFiles/cmTC_bd73f.dir/SIZE_OF_UNSIGNED_LONG.c.o
+[2/2] Linking C executable cmTC_bd73f.js
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4220b && [1/2] Building C object CMakeFiles/cmTC_4220b.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_4220b.js
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b7184 && [1/2] Building C object CMakeFiles/cmTC_b7184.dir/SIZE_OF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_b7184.js
+
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f27ef && [1/2] Building C object CMakeFiles/cmTC_f27ef.dir/UINTPTR_T.c.o
+[2/2] Linking C executable cmTC_f27ef.js
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8bc44 && [1/2] Building C object CMakeFiles/cmTC_8bc44.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8bc44.js
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8a512 && [1/2] Building C object CMakeFiles/cmTC_8a512.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8a512.js
+
+
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_91ddf && [1/2] Building C object CMakeFiles/cmTC_91ddf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_91ddf.js
+
+
+File /work/build-vtk-wasm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_291d0 && [1/2] Building C object CMakeFiles/cmTC_291d0.dir/STDC_HEADERS.c.o
+[2/2] Linking C executable cmTC_291d0.js
+
+
+
+Performing C SOURCE FILE Test FLAG_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5f442 && [1/2] Building C object CMakeFiles/cmTC_5f442.dir/src.c.o
+[2/2] Linking C executable cmTC_5f442.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_VISIBILITY succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_78737 && [1/2] Building C object CMakeFiles/cmTC_78737.dir/src.c.o
+[2/2] Linking C executable cmTC_78737.js
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function cos exists in the m passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f442b && [1/2] Building C object CMakeFiles/cmTC_f442b.dir/CheckFunctionExists.c.o
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:2:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:2:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f442b.js
+wasm-ld: warning: function signature mismatch: cos
+>>> defined as () -> i32 in CMakeFiles/cmTC_f442b.dir/CheckFunctionExists.c.o
+>>> defined as (f64) -> f64 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(cos.o)
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_338d8 && [1/2] Building C object CMakeFiles/cmTC_338d8.dir/INCLUDE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_338d8.js
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4c428 && [1/2] Building C object CMakeFiles/cmTC_4c428.dir/INCLUDE_STDINT_H.c.o
+[2/2] Linking C executable cmTC_4c428.js
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_91036 && [1/2] Building C object CMakeFiles/cmTC_91036.dir/INCLUDE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_91036.js
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b56d6 && [1/2] Building C object CMakeFiles/cmTC_b56d6.dir/INT16_SIZE.c.o
+[2/2] Linking C executable cmTC_b56d6.js
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7ae17 && [1/2] Building C object CMakeFiles/cmTC_7ae17.dir/UINT16_SIZE.c.o
+[2/2] Linking C executable cmTC_7ae17.js
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b1259 && [1/2] Building C object CMakeFiles/cmTC_b1259.dir/U_INT16_SIZE.c.o
+[2/2] Linking C executable cmTC_b1259.js
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a1e20 && [1/2] Building C object CMakeFiles/cmTC_a1e20.dir/INT32_SIZE.c.o
+[2/2] Linking C executable cmTC_a1e20.js
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f72b6 && [1/2] Building C object CMakeFiles/cmTC_f72b6.dir/UINT32_SIZE.c.o
+[2/2] Linking C executable cmTC_f72b6.js
+
+
+
+Determining size of u_int32_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_08296 && [1/2] Building C object CMakeFiles/cmTC_08296.dir/U_INT32_SIZE.c.o
+[2/2] Linking C executable cmTC_08296.js
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1a55e && [1/2] Building C object CMakeFiles/cmTC_1a55e.dir/INT64_SIZE.c.o
+[2/2] Linking C executable cmTC_1a55e.js
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0b602 && [1/2] Building C object CMakeFiles/cmTC_0b602.dir/SHORT_SIZE.c.o
+[2/2] Linking C executable cmTC_0b602.js
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c2823 && [1/2] Building C object CMakeFiles/cmTC_c2823.dir/INT_SIZE.c.o
+[2/2] Linking C executable cmTC_c2823.js
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ce1a6 && [1/2] Building C object CMakeFiles/cmTC_ce1a6.dir/LONG_SIZE.c.o
+[2/2] Linking C executable cmTC_ce1a6.js
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3f067 && [1/2] Building C object CMakeFiles/cmTC_3f067.dir/LONG_LONG_SIZE.c.o
+[2/2] Linking C executable cmTC_3f067.js
+
+
+
+Performing C SOURCE FILE Test have_flag_logical-op-parentheses succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_85927 && [1/2] Building C object CMakeFiles/cmTC_85927.dir/src.c.o
+In file included from <built-in>:336:
+<command line>:2:26: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define have_flag_logical-op-parentheses 1
+                         ^
+1 warning generated.
+[2/2] Linking C executable cmTC_85927.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test have_flag_parentheses succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ded0c && [1/2] Building C object CMakeFiles/cmTC_ded0c.dir/src.c.o
+[2/2] Linking C executable cmTC_ded0c.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test have_flag_shift-op-parentheses succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b7610 && [1/2] Building C object CMakeFiles/cmTC_b7610.dir/src.c.o
+In file included from <built-in>:336:
+<command line>:2:24: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define have_flag_shift-op-parentheses 1
+                       ^
+1 warning generated.
+[2/2] Linking C executable cmTC_b7610.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test have_flag_tautological-compare succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f5fc1 && [1/2] Building C object CMakeFiles/cmTC_f5fc1.dir/src.c.o
+In file included from <built-in>:336:
+<command line>:2:31: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define have_flag_tautological-compare 1
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f5fc1.js
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_DESTRUCTOR succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9413d && [1/2] Building C object CMakeFiles/cmTC_9413d.dir/src.c.o
+[2/2] Linking C executable cmTC_9413d.js
+
+
+Source file was:
+
+		void __attribute__((destructor))
+		f(void) {}
+		int main(void) { return 0; }
+	
+Performing C SOURCE FILE Test GETHOSTBYNAME_ARG_CAST_CONST succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0f397 && [1/2] Building C object CMakeFiles/cmTC_0f397.dir/src.c.o
+[2/2] Linking C executable cmTC_0f397.js
+cache:INFO: generating system asset: symbol_lists/90283793c8a458758fa7033188ce36a538380300.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/90283793c8a458758fa7033188ce36a538380300.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+Source file was:
+
+		#include <netdb.h>
+		int main() { (void) gethostbyname((const char*) ""); return 0; }
+	
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_35d77 && [1/2] Building C object CMakeFiles/cmTC_35d77.dir/HAVE_ARPA_INET_H.c.o
+[2/2] Linking C executable cmTC_35d77.js
+
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8ae13 && [1/2] Building C object CMakeFiles/cmTC_8ae13.dir/HAVE_ARPA_NAMESER_H.c.o
+[2/2] Linking C executable cmTC_8ae13.js
+
+
+
+Performing C SOURCE FILE Test HAVE_SS_FAMILY succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5e2eb && [1/2] Building C object CMakeFiles/cmTC_5e2eb.dir/src.c.o
+[2/2] Linking C executable cmTC_5e2eb.js
+
+
+Source file was:
+
+#include <sys/socket.h>
+#include <sys/types.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+  return 0;
+}
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_42bfb && [1/2] Building C object CMakeFiles/cmTC_42bfb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_42bfb.js
+cache:INFO: generating system asset: symbol_lists/4576d4d1b5e8a82085db364cfc915969ac51c85f.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/4576d4d1b5e8a82085db364cfc915969ac51c85f.txt" for subsequent builds)
+cache:INFO:  - ok
+wasm-ld: warning: function signature mismatch: dlopen
+>>> defined as () -> i32 in CMakeFiles/cmTC_42bfb.dir/CheckFunctionExists.c.o
+>>> defined as (i32, i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(dynlink.o)
+
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_08afd && [1/2] Building C object CMakeFiles/cmTC_08afd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_08afd.js
+wasm-ld: warning: function signature mismatch: ftime
+>>> defined as () -> i32 in CMakeFiles/cmTC_08afd.dir/CheckFunctionExists.c.o
+>>> defined as (i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(ftime.o)
+
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_73a9c && [1/2] Building C object CMakeFiles/cmTC_73a9c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_73a9c.js
+cache:INFO: generating system asset: symbol_lists/e1f5a809e29ad6a633b507920bd017d82e1857fc.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/e1f5a809e29ad6a633b507920bd017d82e1857fc.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ce203 && [1/2] Building C object CMakeFiles/cmTC_ce203.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ce203.js
+wasm-ld: warning: function signature mismatch: gettimeofday
+>>> defined as () -> i32 in CMakeFiles/cmTC_ce203.dir/CheckFunctionExists.c.o
+>>> defined as (i32, i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(emscripten_time.o)
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_675b5 && [1/2] Building C object CMakeFiles/cmTC_675b5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_675b5.js
+wasm-ld: warning: function signature mismatch: isascii
+>>> defined as () -> i32 in CMakeFiles/cmTC_675b5.dir/CheckFunctionExists.c.o
+>>> defined as (i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(isascii.o)
+
+
+
+Determining if the function munmap exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_79a50 && [1/2] Building C object CMakeFiles/cmTC_79a50.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_79a50.js
+wasm-ld: warning: function signature mismatch: munmap
+>>> defined as () -> i32 in CMakeFiles/cmTC_79a50.dir/CheckFunctionExists.c.o
+>>> defined as (i32, i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(munmap.o)
+
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7ff61 && [1/2] Building C object CMakeFiles/cmTC_7ff61.dir/HAVE_NETDB_H.c.o
+[2/2] Linking C executable cmTC_7ff61.js
+
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f2e17 && [1/2] Building C object CMakeFiles/cmTC_f2e17.dir/HAVE_NETINET_IN_H.c.o
+[2/2] Linking C executable cmTC_f2e17.js
+
+
+
+Determining if files poll.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5e699 && [1/2] Building C object CMakeFiles/cmTC_5e699.dir/HAVE_POLL_H.c.o
+[2/2] Linking C executable cmTC_5e699.js
+
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_38310 && [1/2] Building C object CMakeFiles/cmTC_38310.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_38310.js
+wasm-ld: warning: function signature mismatch: putenv
+>>> defined as () -> i32 in CMakeFiles/cmTC_38310.dir/CheckFunctionExists.c.o
+>>> defined as (i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(putenv.o)
+
+
+
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_664bc && [1/2] Building C object CMakeFiles/cmTC_664bc.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_664bc.js
+wasm-ld: warning: function signature mismatch: rand_r
+>>> defined as () -> i32 in CMakeFiles/cmTC_664bc.dir/CheckFunctionExists.c.o
+>>> defined as (i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(rand_r.o)
+
+
+
+Determining if files resolv.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_915e0 && [1/2] Building C object CMakeFiles/cmTC_915e0.dir/HAVE_RESOLV_H.c.o
+[2/2] Linking C executable cmTC_915e0.js
+
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c4c17 && [1/2] Building C object CMakeFiles/cmTC_c4c17.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c4c17.js
+wasm-ld: warning: function signature mismatch: stat
+>>> defined as () -> i32 in CMakeFiles/cmTC_c4c17.dir/CheckFunctionExists.c.o
+>>> defined as (i32, i32) -> i32 in /emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(stat.o)
+
+
+
+Determining if files sys/mman.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_471bd && [1/2] Building C object CMakeFiles/cmTC_471bd.dir/HAVE_SYS_MMAN_H.c.o
+[2/2] Linking C executable cmTC_471bd.js
+
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_09abd && [1/2] Building C object CMakeFiles/cmTC_09abd.dir/HAVE_SYS_SELECT_H.c.o
+[2/2] Linking C executable cmTC_09abd.js
+
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d86df && [1/2] Building C object CMakeFiles/cmTC_d86df.dir/HAVE_SYS_SOCKET_H.c.o
+[2/2] Linking C executable cmTC_d86df.js
+
+
+
+Determining if files sys/timeb.h exist passed with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_54383 && [1/2] Building C object CMakeFiles/cmTC_54383.dir/HAVE_SYS_TIMEB_H.c.o
+[2/2] Linking C executable cmTC_54383.js
+
+
+
+Performing C SOURCE FILE Test SEND_ARG2_CAST_CONST succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f516e && [1/2] Building C object CMakeFiles/cmTC_f516e.dir/src.c.o
+[2/2] Linking C executable cmTC_f516e.js
+cache:INFO: generating system asset: symbol_lists/a228e26d3eb1f3b1676c32fa9dee173eafba230b.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/a228e26d3eb1f3b1676c32fa9dee173eafba230b.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+Source file was:
+
+		#include <sys/socket.h>
+		#include <sys/types.h>
+		int main() { (void) send(1, (const char*) "", 1, 1); return 0; }
+	
+Performing C SOURCE FILE Test VA_LIST_IS_ARRAY_TEST succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2ecba && [1/2] Building C object CMakeFiles/cmTC_2ecba.dir/src.c.o
+[2/2] Linking C executable cmTC_2ecba.js
+
+
+Source file was:
+
+		#include <stdarg.h>
+		void a(va_list* ap) {};
+		int main() { va_list ap1, ap2; a(&ap1); ap2 = (va_list) ap1; return 0; }
+	
+Performing C SOURCE FILE Test XML_SOCKLEN_T_SOCKLEN_T succeeded with the following output:
+Change Dir: /work/build-vtk-wasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_53764 && [1/2] Building C object CMakeFiles/cmTC_53764.dir/src.c.o
+[2/2] Linking C executable cmTC_53764.js
+
+
+Source file was:
+
+		#include <stddef.h>
+		#include <sys/socket.h>
+		#include <sys/types.h>
+		int main() { (void) getsockopt(1, 1, 1, NULL, (socklen_t*) NULL); return 0; }
+	

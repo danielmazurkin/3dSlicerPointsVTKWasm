@@ -1,0 +1,6 @@
+#ifndef vtkFluidMapperDepthFilterNarrowRangeFS_h
+#define vtkFluidMapperDepthFilterNarrowRangeFS_h
+
+extern const char *vtkFluidMapperDepthFilterNarrowRangeFS;
+
+#endif

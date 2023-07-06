@@ -1,4 +1,4 @@
-Cannot generate into /home/danil/cone_test_wasm/vtk-master-Examples-Emscripten-Cxx-Cone/Examples/Emscripten/Cxx/Cone
-It was created with incompatible generator 'Unix Makefiles'
+Cannot generate into /home/danil/without_error_npx/Cone
+It is already used for project /home/danil/cone_test_wasm/vtk-master-Examples-Emscripten-Cxx-Cone/Examples/Emscripten/Cxx/Cone
 
 Please either delete it manually or select another generation directory

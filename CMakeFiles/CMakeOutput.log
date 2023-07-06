@@ -459,3 +459,461 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6416a && [1/2] Building C object CMakeFiles/cmTC_6416a.dir/src.c.o
+[2/2] Linking C executable cmTC_6416a.js
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12f3b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12f3b.dir/build.make CMakeFiles/cmTC_12f3b.dir/build
+gmake[1]: Entering directory '/work/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12f3b.dir/src.c.o
+/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -MD -MT CMakeFiles/cmTC_12f3b.dir/src.c.o -MF CMakeFiles/cmTC_12f3b.dir/src.c.o.d -o CMakeFiles/cmTC_12f3b.dir/src.c.o -c /work/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_12f3b.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f3b.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/emcc  -fPIC  @CMakeFiles/cmTC_12f3b.dir/objects1.rsp -o cmTC_12f3b.js 
+gmake[1]: Leaving directory '/work/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57c72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57c72.dir/build.make CMakeFiles/cmTC_57c72.dir/build
+gmake[1]: Entering directory '/work/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57c72.dir/src.c.o
+/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -MD -MT CMakeFiles/cmTC_57c72.dir/src.c.o -MF CMakeFiles/cmTC_57c72.dir/src.c.o.d -o CMakeFiles/cmTC_57c72.dir/src.c.o -c /work/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_57c72.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57c72.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/emcc  -fPIC  @CMakeFiles/cmTC_57c72.dir/objects1.rsp -o cmTC_57c72.js 
+gmake[1]: Leaving directory '/work/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_cd8a9 && [1/2] Building C object CMakeFiles/cmTC_cd8a9.dir/src.c.o
+[2/2] Linking C executable cmTC_cd8a9.js
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_04c4a && [1/2] Building C object CMakeFiles/cmTC_04c4a.dir/src.c.o
+[2/2] Linking C executable cmTC_04c4a.js
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b4370 && [1/2] Building C object CMakeFiles/cmTC_b4370.dir/src.c.o
+[2/2] Linking C executable cmTC_b4370.js
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_061ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_061ee.dir/build.make CMakeFiles/cmTC_061ee.dir/build
+gmake[1]: Entering directory '/work/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_061ee.dir/src.c.o
+/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -MD -MT CMakeFiles/cmTC_061ee.dir/src.c.o -MF CMakeFiles/cmTC_061ee.dir/src.c.o.d -o CMakeFiles/cmTC_061ee.dir/src.c.o -c /work/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_061ee.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_061ee.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/emcc  -fPIC  @CMakeFiles/cmTC_061ee.dir/objects1.rsp -o cmTC_061ee.js 
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+gmake[1]: Leaving directory '/work/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9b797 && [1/2] Building C object CMakeFiles/cmTC_9b797.dir/src.c.o
+[2/2] Linking C executable cmTC_9b797.js
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_de7f3 && [1/2] Building C object CMakeFiles/cmTC_de7f3.dir/src.c.o
+[2/2] Linking C executable cmTC_de7f3.js
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e2b4c && [1/2] Building C object CMakeFiles/cmTC_e2b4c.dir/src.c.o
+[2/2] Linking C executable cmTC_e2b4c.js
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34ee1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_34ee1.dir/build.make CMakeFiles/cmTC_34ee1.dir/build
+gmake[1]: Entering directory '/work/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34ee1.dir/src.c.o
+/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -MD -MT CMakeFiles/cmTC_34ee1.dir/src.c.o -MF CMakeFiles/cmTC_34ee1.dir/src.c.o.d -o CMakeFiles/cmTC_34ee1.dir/src.c.o -c /work/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_34ee1.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34ee1.dir/link.txt --verbose=1
+/emsdk/upstream/emscripten/emcc  -fPIC  @CMakeFiles/cmTC_34ee1.dir/objects1.rsp -o cmTC_34ee1.js 
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+gmake[1]: Leaving directory '/work/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4ce64 && [1/2] Building C object CMakeFiles/cmTC_4ce64.dir/src.c.o
+[2/2] Linking C executable cmTC_4ce64.js
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f1d6e && [1/2] Building C object CMakeFiles/cmTC_f1d6e.dir/src.c.o
+[2/2] Linking C executable cmTC_f1d6e.js
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-113-generic - x86_64
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /work/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_84770 && [1/2] Building C object CMakeFiles/cmTC_84770.dir/src.c.o
+[2/2] Linking C executable cmTC_84770.js
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

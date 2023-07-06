@@ -1,0 +1,2 @@
+/emsdk/upstream/emscripten/emar qc libadditional_vtk.a CMakeFiles/additional_vtk.dir/slicer_mrml_repository/vtkAddon/vtkCurveGenerator.cxx.o
+/emsdk/upstream/emscripten/emranlib libadditional_vtk.a

@@ -3,12 +3,30 @@
 
 <head>
     <meta charset="utf-8" />
+    <style>
+        .button-row {
+            display: flex;
+        }
+
+        .button {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
-<canvas id="canvas" style="position: absolute; left: 0; top: 0;"></canvas>
+
+<div class="button-row">
+    <button class="buttom" onclick="renderStart()"> Начать рендер  </button>
+    <button class="button" onclick="showLine()"> Показать линию </button>
+    <button class="button" onclick="removeLine()"> Удалить линию </button>
+</div>
+
+<canvas id="canvas"></canvas>
 <script type="text/javascript" src="Cone.js"></script>
 <script type='text/javascript'>
+    var app = null;
+
     var Module = {
         'canvas': (function () {
             var canvas = document.getElementById('canvas');
@@ -44,6 +62,26 @@
             canvas.addEventListener('click', () => canvas.focus());
         }
     };
+
+    vtkRenderingApplicationExport(Module).then(runtime => {
+        console.log("Start init")
+        app = new Module.BasicRender();
+    })
+
+    function renderStart() {
+        console.log("RenderStart: ");
+        app.StartRendering(window.innerWidth, window.innerHeight);
+    }
+
+    function removeLine(e) {
+        console.log("removeLine: ");
+        app.DestroyLine();
+    }
+
+    function showLine(e) {
+       app.ShowLine();
+    }
+
 </script>
 </body>
 
